@@ -3,6 +3,8 @@ GEM
   specs:
     addressable (2.3.8)
     coderay (1.1.0)
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
     daemons (1.2.2)
     diff-lcs (1.2.5)
     eventmachine (1.0.7)
@@ -35,6 +37,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.2.0)
     rspec-support (3.2.2)
+    safe_yaml (1.0.4)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -45,6 +48,10 @@ GEM
       eventmachine (~> 1.0)
       rack (~> 1.0)
     tilt (2.0.1)
+    vcr (2.9.3)
+    webmock (1.21.0)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
 
 PLATFORMS
   ruby
@@ -57,3 +64,5 @@ DEPENDENCIES
   rspec (~> 3.2.0)
   sinatra
   thin
+  vcr
+  webmock

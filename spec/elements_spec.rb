@@ -1,7 +1,7 @@
 require File.expand_path("elements.rb")
 require File.expand_path("spec/spec_helper.rb")
 
-RSpec.describe Elements do
+RSpec.describe Elements, :vcr do
 
   let(:test_url) { "http://localhost:5000/test" }
   let(:options) {{

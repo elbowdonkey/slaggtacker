@@ -1,0 +1,491 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://collusioni.st/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 302
+      message: Found
+    headers:
+      Connection:
+      - close
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-cache
+      Location:
+      - "/"
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 28 Apr 2015 16:00:15 GMT
+- request:
+    method: get
+    uri: http://collusioni.st/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Tue, 28 Apr 2015 16:00:15 GMT
+      Content-Type:
+      - text/html; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Last-Modified:
+      - Tue, 21 Apr 2015 22:45:05 GMT
+      Access-Control-Allow-Origin:
+      - "*"
+      Expires:
+      - Tue, 28 Apr 2015 16:10:15 GMT
+      Cache-Control:
+      - max-age=600
+    body:
+      encoding: ASCII-8BIT
+      string: "\n<!DOCTYPE html>\n<!--[if IEMobile 7 ]><html class=\"no-js iem7\"><![endif]-->\n<!--[if
+        lt IE 9]><html class=\"no-js lte-ie8\"><![endif]-->\n<!--[if (gt IE 8)|(gt
+        IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class=\"no-js\" lang=\"en\"><!--<![endif]-->\n<head>\n
+        \ <meta charset=\"utf-8\">\n  <title>collusioni.st</title>\n  <meta name=\"author\"
+        content=\"Michael Buffington\">\n\n  \n  <meta name=\"description\" content=\"Here&rsquo;s
+        a teaser for a game I&rsquo;ve been working on. \">\n  \n\n  <!-- http://t.co/dKP3o1e
+        -->\n  <meta name=\"HandheldFriendly\" content=\"True\">\n  <meta name=\"MobileOptimized\"
+        content=\"320\">\n  <meta name=\"viewport\" content=\"width=device-width,
+        initial-scale=1\">\n\n  \n  <link rel=\"canonical\" href=\"http://collusioni.st/\">\n
+        \ <link href=\"/favicon.png\" rel=\"icon\">\n  <link href=\"/stylesheets/screen.css\"
+        media=\"screen, projection, print\" rel=\"stylesheet\" type=\"text/css\">\n
+        \ <link href=\"/atom.xml\" rel=\"alternate\" title=\"collusioni.st\" type=\"application/atom+xml\">\n
+        \ <script src=\"/javascripts/modernizr-2.0.js\"></script>\n  <script src=\"//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\"></script>\n
+        \ <script>!window.jQuery && document.write(unescape('%3Cscript src=\"/javascripts/libs/jquery.min.js\"%3E%3C/script%3E'))</script>\n
+        \ <script src=\"/javascripts/octopress.js\" type=\"text/javascript\"></script>\n
+        \ <!--Fonts from Google\"s Web font directory at http://google.com/webfonts
+        -->\n<link href=\"http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic\"
+        rel=\"stylesheet\" type=\"text/css\">\n<link href=\"http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic\"
+        rel=\"stylesheet\" type=\"text/css\">\n<script type=\"text/javascript\" src=\"http://use.typekit.net/vvo8wuf.js\"></script>\n<script
+        type=\"text/javascript\">try{Typekit.load();}catch(e){}</script>\n\n  \n  <script
+        type=\"text/javascript\">\n    var _gaq = _gaq || [];\n    _gaq.push(['_setAccount',
+        'UA-8363810-1']);\n    _gaq.push(['_trackPageview']);\n\n    (function() {\n
+        \     var ga = document.createElement('script'); ga.type = 'text/javascript';
+        ga.async = true;\n      ga.src = ('https:' == document.location.protocol ?
+        'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n      var
+        s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+        s);\n    })();\n  </script>\n\n\n</head>\n\n<body   >\n  <header role=\"banner\"><hgroup>\n
+        \ <h1><a href=\"/\">collusioni.st</a></h1>\n</hgroup>\n\n</header>\n  <nav
+        role=\"navigation\"><ul class=\"subscription\" data-subscription=\"rss\">\n
+        \ <li><a href=\"/atom.xml\" rel=\"subscribe-rss\" title=\"subscribe via RSS\">RSS</a></li>\n
+        \ \n</ul>\n  \n<form action=\"https://google.com/search\" method=\"get\">\n
+        \ <fieldset role=\"search\">\n    <input type=\"hidden\" name=\"sitesearch\"
+        value=\"collusioni.st\">\n    <input class=\"search\" type=\"text\" name=\"q\"
+        results=\"0\" placeholder=\"Search\"/>\n  </fieldset>\n</form>\n  \n<ul class=\"main-navigation\">\n
+        \ <li><a href=\"/\">Blog</a></li>\n  <li><a href=\"/blog/archives\">Archives</a></li>\n</ul>\n\n</nav>\n
+        \ <div id=\"main\">\n    <div id=\"content\">\n      <div class=\"blog-index\">\n
+        \ \n  \n  \n    <article>\n      \n  <header>\n    \n      <h1 class=\"entry-title\"><a
+        href=\"/blog/2013/07/01/elevator-teaser/\">Tower Teaser</a></h1>\n    \n    \n
+        \     <p class=\"meta\">\n        \n\n\n\n\n<time class='entry-date' datetime='2013-07-01T09:41:00-07:00'><span
+        class='date'><span class='date-month'>Jul</span> <span class='date-day'>1</span><span
+        class='date-suffix'>st</span>, <span class='date-year'>2013</span></span>
+        <span class='time'>9:41 am</span></time>\n        \n           | <a href=\"/blog/2013/07/01/elevator-teaser/#disqus_thread\"\n
+        \            data-disqus-identifier=\"http://collusioni.st/blog/2013/07/01/elevator-teaser/\">Comments</a>\n
+        \       \n      </p>\n    \n  </header>\n\n\n  <div class=\"entry-content\"><p>Here&rsquo;s
+        <a href=\"tower\">a teaser for a game I&rsquo;ve been working on</a>.</p>\n\n<p><img
+        src=\"http://dl.dropbox.com/u/100876/Screenshots/20130701094323.png\"></p>\n</div>\n
+        \ \n  \n\n\n    </article>\n  \n  \n    <article>\n      \n  <header>\n    \n
+        \     <h1 class=\"entry-title\"><a href=\"/blog/2013/06/21/the-last-thing-my-nikon-d100-saw/\">The
+        Last Thing My Nikon D100 Saw</a></h1>\n    \n    \n      <p class=\"meta\">\n
+        \       \n\n\n\n\n<time class='entry-date' datetime='2013-06-21T15:32:00-07:00'><span
+        class='date'><span class='date-month'>Jun</span> <span class='date-day'>21</span><span
+        class='date-suffix'>st</span>, <span class='date-year'>2013</span></span>
+        <span class='time'>3:32 pm</span></time>\n        \n           | <a href=\"/blog/2013/06/21/the-last-thing-my-nikon-d100-saw/#disqus_thread\"\n
+        \            data-disqus-identifier=\"http://collusioni.st/blog/2013/06/21/the-last-thing-my-nikon-d100-saw/\">Comments</a>\n
+        \       \n      </p>\n    \n  </header>\n\n\n  <div class=\"entry-content\"><p><img
+        src=\"/images/Img4933.JPG\"></p>\n\n<p>I bought my first &ldquo;real&rdquo;
+        camera, a <a href=\"http://www.dpreview.com/reviews/nikond100/\">Nikon D100</a>,
+        over 10 years ago. At the time it was probably the best camera, feature-wise,
+        you could get without spending close to $10,000 for a professional digital
+        SLR.</p>\n\n<p>While it wasn&rsquo;t perfect I can say with confidence that
+        it was the single most useful piece of technology I&rsquo;ve ever owned. Up
+        until the last frame, it took amazing photographs.</p>\n\n<p>If you&rsquo;re
+        not familiar with SLR cameras you might be surprised to know that you can
+        count on them to stop being able to take photographs at some point. The mechanical
+        portion of the camera simply wears out over a certain amount of shots. Depending
+        on the camera, some can have more shutter acuations than others.</p>\n\n<p>As
+        far as I can tell, Nikon never published the estimated shutter actuations
+        a D100 was capable of. I&rsquo;ve seen some people suggest between 20,000
+        to 30,000 total actuations. This <a href=\"http://www.olegkikin.com/shutterlife/\">shutter
+        life database</a>, as far as I can tell, says <a href=\"http://www.olegkikin.com/shutterlife/nikon_d100.htm\">it&rsquo;s
+        more like 50,000</a>.</p>\n\n<p>My D100 had at least 282,012 shutter actuations.</p>\n\n<p>That
+        number is hard to discover - after doing some searching I found out that the
+        number is stored in EXIF data for every photo you take. If you ever reset
+        the firmware, that number starts over. I&rsquo;ve done that at least once,
+        so in reality I&rsquo;ve taken more than 282,012 photos - I&rsquo;d guess
+        closer to the 300k range.</p>\n\n<p>With that in mind, here are the last thousand
+        or so photographs my Nikon D100 captured. What follows is a timelapse of me
+        building <a href=\"http://www.stevensaero.com/StevensAero-1946-Says-nuh-140-Micro-Kit-p-20620.html\">an
+        airplane</a> over the course of several nights. The camera was on a tripod
+        feeding what it captured directly to my computer.</p>\n\n<p>The airplane project
+        was nearly complete when the shutter gave up.</p>\n\n<p>You were a good camera,
+        Nikon D100. May your replacement be even half the camera you were.*</p>\n\n<div
+        class=\"ratio-4-3 embed-video-container\" onclick=\"var myAnchor = document.getElementById('xealSgtYbt4');var
+        tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot;
+        src=&quot;http://www.youtube.com/embed/xealSgtYbt4?autoplay=1&quot; frameborder=&quot;0&quot;
+        allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild,
+        myAnchor);return false;\" title=\"click here to play\">\n<a class=\"youtube-lazy-link\"
+        style=\"width:100%;height:100%;background:#000 url(http://i2.ytimg.com/vi/xealSgtYbt4/0.jpg)
+        center center no-repeat;background-size:contain;position:absolute\" href=\"http://www.youtube.com/watch?v=xealSgtYbt4\"
+        id=\"xealSgtYbt4\" onclick=\"return false;\">\n<div class=\"youtube-lazy-link-div\"></div>\n<div
+        class=\"youtube-lazy-link-info\">Stevens Aero Says Nuh Timelapse</div>\n</a>\n<div
+        class=\"video-info\" ></div>\n</div>\n\n\n<p>*Who am I kidding? For half the
+        price I paid for the D100 I can buy a modern Nikon with twice as many features,
+        4 times the megapixels, faster shutter/flash sync, less noise in high ISO
+        shots, and a camera that weighs half as much. I&rsquo;ll miss the D100 for
+        what it allowed me to do for so long, but it&rsquo;s death is hardly a tragedy.</p>\n</div>\n
+        \ \n  \n\n\n    </article>\n  \n  \n    <article>\n      \n  <header>\n    \n
+        \     <h1 class=\"entry-title\"><a href=\"/blog/2013/06/11/3d-printed-balsa-chopper/\">3D
+        Printed Balsa Chopper</a></h1>\n    \n    \n      <p class=\"meta\">\n        \n\n\n\n\n<time
+        class='entry-date' datetime='2013-06-11T17:14:00-07:00'><span class='date'><span
+        class='date-month'>Jun</span> <span class='date-day'>11</span><span class='date-suffix'>th</span>,
+        <span class='date-year'>2013</span></span> <span class='time'>5:14 pm</span></time>\n
+        \       \n           | <a href=\"/blog/2013/06/11/3d-printed-balsa-chopper/#disqus_thread\"\n
+        \            data-disqus-identifier=\"http://collusioni.st/blog/2013/06/11/3d-printed-balsa-chopper/\">Comments</a>\n
+        \       \n      </p>\n    \n  </header>\n\n\n  <div class=\"entry-content\"><p>First
+        of all, what&rsquo;s a balsa chopper?</p>\n\n<p>Put simply, it&rsquo;s a tool
+        that allows you to consistently make precision cuts in small pieces of balsawood.</p>\n\n<p>I&rsquo;ll
+        use the tool to build strong and light weight structures for flying models.
+        It allows for making joints that have perfectly angle points of contact. Making
+        these sorts of joints without a tool like this is difficult, if not impossible
+        to do.</p>\n\n<p>Strong joints require less glue, and less glue means less
+        weight.</p>\n\n<p>Here&rsquo;s an unglued joint using 1/16&#8221; spars that
+        were cut by hand. The gap you see at the top is a problem that&rsquo;s hard
+        to avoid. It&rsquo;s there because the cut wasn&rsquo;t made perfectly square
+        to the spar. I can try sanding it square, but the chances of getting it perfect
+        without reducing the length of the spar are slim.</p>\n\n<p><img src=\"/images/balsa_chopper/bad_joint.png\"
+        title=\"'A hand cut balsa joint'\" ></p>\n\n<p>Here&rsquo;s a very similar
+        joint with spars cut using my balsa chopper. The difference is obvious. It&rsquo;s
+        easier to get accurate results using the tool than it is to get inaccurate
+        results by hand.</p>\n\n<p><img src=\"/images/balsa_chopper/good_joint.png\"
+        title=\"'A tool cut balsa joint'\" ></p>\n\n<p>The tool consists of:</p>\n\n<ul>\n<li>four
+        3D printed ABS parts</li>\n<li>two skateboard wheel bearings</li>\n<li>an
+        axle from a bicycle wheel hub</li>\n<li>four nuts for the axle</li>\n<li>eight
+        sheet metal screws</li>\n<li>one length of &frac12;&#8221; x &frac12;&#8221;
+        x 1/16&#8221; aluminum C-channel</li>\n<li>a chunk of particle board</li>\n<li>two
+        socket head screws to lock the blade holder in place</li>\n<li>three tiny
+        screws to hold the razor blade in place</li>\n<li>one razor blade</li>\n</ul>\n\n\n<p>While
+        the parts list seems a bit long, the entire thing is pretty simple.</p>\n\n<p>This
+        is probably the third iteration on this design that I&rsquo;ve done. The first
+        one used no 3D printed parts. It used a C-channel bar that was bolted to a
+        chunk of MDF on one end, with a razor blade screwed directly to the C-channel
+        bar.</p>\n\n<p>The first iteration worked well aside from one annoying flaw:
+        it was too easy for the blade to move side to side. There was too much play
+        where the C-channel bolted to the hinge and very little could be done to fix
+        that.</p>\n\n<p>The second iteration used an all printed handle and skate
+        (sometimes known as 608) bearings in the hinge. Despite using these bearings
+        in my latest iteration, I&rsquo;m not fully convinced they&rsquo;re useful.
+        The idea is that provide a solid point to pass an axle through and can be
+        tightly pushed into a 3D printed part. If the axle has no play, and they&rsquo;re
+        tightly locked in a hinge, then the blade should also have no play.</p>\n\n<p>The
+        problem with the second iteration, primarily, was that I could never make
+        it. Printing a part of that length is actually very difficult to do well.</p>\n\n<p>ABS
+        shrinks as it cools. If the part being printed has enough surface area, or
+        in this case, just length, that shrinkage can cause the print to peel of the
+        print bed. After several failed attempts I gave up.</p>\n\n<p>The current
+        design reduces the amount of plastic used. This reduces the number of attempts
+        needed to get parts that work. It also lets me use the right kinds of materials
+        for the right reasons. A C-channel handle is stronger and less likely to flex
+        than a printed handle would be. It since I have a bunch just lying around,
+        it&rsquo;s much quicker to put it into use.</p>\n\n<p>Here&rsquo;s are some
+        photos of the final design:</p>\n\n<p><img src=\"/images/balsa_chopper/blade_holder.png\">\n<img
+        src=\"/images/balsa_chopper/pivot.png\">\n<img src=\"/images/balsa_chopper/hinges.png\">\n<img
+        src=\"/images/balsa_chopper/IMG_2498.png\">\n<img src=\"/images/balsa_chopper/IMG_2499.png\">\n<img
+        src=\"/images/balsa_chopper/IMG_2500.png\">\n<img src=\"/images/balsa_chopper/IMG_2501.png\">\n<img
+        src=\"/images/balsa_chopper/IMG_2502.png\">\n<img src=\"/images/balsa_chopper/IMG_2503.png\">\n<img
+        src=\"/images/balsa_chopper/IMG_2504.png\">\n<img src=\"/images/balsa_chopper/IMG_2505.png\">\n<img
+        src=\"/images/balsa_chopper/IMG_2506.png\"></p>\n\n<p>One thing I&rsquo;m
+        quite happy about is the blade holder. I didn&rsquo;t plan it, but as it turns
+        out the screws I&rsquo;d intended to simply lock the blade holder to the handle
+        can be loosened so that the holder can slide to any spot on the handle.</p>\n\n<p>Being
+        able to move the blade holder allows for a lot more versatility. I can cut
+        parts at more extreme angles, or make cuts on wood that I wouldn&rsquo;t normally
+        be able to do because the blade is too close to the hinge.</p>\n\n<p>Leaving
+        the blade holder just loose enough to slide can allow me to use the chopper
+        as a sort of radial arm saw. If I mount the blade so that one corner is slightly
+        higher, I can make cuts that are longer than the blade itself.</p>\n\n<p>For
+        example, if the corner of the blade closest to me is raised, I can start a
+        cut with the blade holder up against the hinge and pull towards me to make
+        a perfectly square cut.</p>\n\n<p>I was also planning on adding a straight
+        edge up against the hinge similar to how I did it with my first iteration
+        of this tool. But I&rsquo;ve found I don&rsquo;t need the straight edge. I&rsquo;m
+        usually just use a protractor to measure out the angles I need and tape or
+        clamp an edge down.</p>\n\n<p>I plan on designing blade holders that I can
+        swap out as well. For example - I could have a blade holder that holds the
+        blade at a 45 degree angle to the table. That&rsquo;d allow me to make compound
+        angle  - one angle derived from the Z rotation of the part, the other derived
+        from the X (or Y, I suppose) angle of the blade.</p>\n\n<p>Want to make your
+        own or improve upon my design?</p>\n\n<p>Here&rsquo;s a <a href=\"https://github.com/elbowdonkey/balsa_chopper\"
+        title=\"Balsa chopper source\">link to the source on Github</a>.\nHere&rsquo;s
+        a <a href=\"http://www.thingiverse.com/thing:103963\" title=\"Balsa STLs and
+        source\">link to the source and ready to slice STL files on Thingiverse</a>.</p>\n</div>\n
+        \ \n  \n\n\n    </article>\n  \n  \n    <article>\n      \n  <header>\n    \n
+        \     <h1 class=\"entry-title\"><a href=\"/blog/2013/05/30/ergodox/\">ErgoDox</a></h1>\n
+        \   \n    \n      <p class=\"meta\">\n        \n\n\n\n\n<time class='entry-date'
+        datetime='2013-05-30T19:35:00Z'><span class='date'><span class='date-month'>May</span>
+        <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span
+        class='date-year'>2013</span></span> <span class='time'>7:35 pm</span></time>\n
+        \       \n      </p>\n    \n  </header>\n\n\n  <div class=\"entry-content\"><p>I
+        just happened upon a great looking DIY keyboard called the <a href=\"http://ergodox.org\">ErgoDox</a>.</p>\n\n<p>Scanning
+        through <a href=\"http://deskthority.net/workshop-f7/split-ergonomic-keyboard-project-t1753-930.html\">this
+        forum thread</a> led me to Kurt Plubell&rsquo;s <a href=\"http://www.flickr.com/photos/kurplop/\">version</a>
+        of the keyboard. Fantastic work.</p>\n\n<p><a href=\"http://www.flickr.com/photos/kurplop/sets/72157633538408496/\"><img
+        src=\"http://dl.dropbox.com/u/100876/Screenshots/20130530123050.png\" /></a></p>\n</div>\n
+        \ \n  \n\n\n    </article>\n  \n  \n    <article>\n      \n  <header>\n    \n
+        \     <h1 class=\"entry-title\"><a href=\"/blog/2013/05/28/the-wish-machine/\">The
+        Wish Machine</a></h1>\n    \n    \n      <p class=\"meta\">\n        \n\n\n\n\n<time
+        class='entry-date' datetime='2013-05-28T00:20:00Z'><span class='date'><span
+        class='date-month'>May</span> <span class='date-day'>28</span><span class='date-suffix'>th</span>,
+        <span class='date-year'>2013</span></span> <span class='time'>12:20 am</span></time>\n
+        \       \n      </p>\n    \n  </header>\n\n\n  <div class=\"entry-content\"><p><img
+        src=\"http://dl.dropbox.com/u/100876/Screenshots/20130527172359.png\"></p>\n\n<p>At
+        the first XOXO conference last year, Bre Pettis, CEO of <a href=\"http://makerbot.com\">Makerbot
+        Inc.</a> announced on stage that 24 hours from that moment he&rsquo;d give
+        away the demo printer he&rsquo;d brought to the person who tweeted the best
+        idea for what they&rsquo;d print with the 3D printer.</p>\n\n<p>Less then
+        24 hours later I&rsquo;d tweeted hundreds of ideas.</p>\n\n<p>I spent time
+        talking to my kids about each idea, and coming up with new ideas. I was picky
+        with the ideas - nearly all of them needed to be things you couldn&rsquo;t
+        just buy. They needed to have value of some sort. They needed to be useful,
+        entertaining, or special in some way. I easily rejected 2 ideas for every
+        1 idea I tweeted.</p>\n\n<p>I also told myself, rather naively, that if I
+        won the printer, I&rsquo;d print each idea and document it here. Telling myself
+        that would help me ease the guilt of getting such a valuable thing for free,
+        a thing that other people wanted and wouldn&rsquo;t have because of my win.</p>\n\n<p>Minutes
+        before Bre was to take the stage someone hinted to me that I was the sure
+        winner. They&rsquo;d been sitting behind Bre earlier and caught sight of my
+        name on his laptop. I was hopeful, but wouldn&rsquo;t call me a sure thing
+        until I had the printer in my hands.</p>\n\n<p>Then Bre announced the winner
+        of the demo machine.</p>\n\n<p>It wasn&rsquo;t me.</p>\n\n<p>I was actually
+        pretty sad. My kids were excited, hoping I&rsquo;d win. I&rsquo;d just been
+        told it was a sure thing. I wanted to win if for no other reason than to make
+        my kids happy, like their participation in the idea process paid off. Before
+        I had time to dwell on the loss for too long though Bre said that he decided
+        to award another person a machine.</p>\n\n<p>&ldquo;If only by sheer volume
+        alone, Michael Buffington has won a <a href=\"http://store.makerbot.com/replicator.html\">Replicator</a>
+        as well.&rdquo;</p>\n\n<p>That&rsquo;s when it happened. I vowed that I&rsquo;d
+        make good on my promise and print every idea I&rsquo;d submitted.</p>\n\n<p>Now
+        almost a year later I&rsquo;ve finally come around to making progress on that
+        promise. Below is the list of ideas, each of which I plan on attempting to
+        design and print (if someone else hasn&rsquo;t done it already). Having had
+        plenty of time to learn the art (and I do mean art) of 3D printing, I can
+        promise that some of the ideas are nearly impossible. But I&rsquo;ll try anyways.</p>\n\n<ul>\n<li>parts
+        for <a href=\"http://collusioni.st/2012/09/14/the-manta-ray\">my chording
+        keyboard</a></li>\n<li><a href=\"http://collusioni.st/blog/2013/06/11/3d-printed-balsa-chopper/\">tools
+        for helping build balsa wood model airplanes</a></li>\n<li><a href=\"http://www.thingiverse.com/search?q=board+game&sa=\">board
+        game parts</a></li>\n<li>musical instruments</li>\n<li>replacement camera
+        lens covers</li>\n<li>a lens mounted lens cover keeper</li>\n<li>models of
+        microscopic things</li>\n<li>glasses cases</li>\n<li>bespoke bike parts</li>\n<li>camera
+        mount for a skateboard</li>\n<li>hooks to hang a laptop to the back of a monitor</li>\n<li>accurate
+        measuring cups and spoons for toddlers</li>\n<li><a href=\"http://www.thingiverse.com/search?q=small+parts&sa=\">linkable
+        small parts containers</a></li>\n<li><a href=\"http://www.thingiverse.com/search?q=spring+bracelet\">spring
+        shaped bracelets</a></li>\n<li>edges that clip onto an ipad to making gaming
+        comfortable</li>\n<li>a guitar capo with a secret guitar pick pocket</li>\n<li>mini
+        clamps for model building</li>\n<li>specialized jaws for a mini vise</li>\n<li>marionette
+        body parts</li>\n<li>glasses frames</li>\n<li>ball point pen body</li>\n<li>extreme
+        playdoh fun factory</li>\n<li>sculpting tools for toddlers</li>\n<li>data
+        tracking pet food dish</li>\n<li>micro servo mounts for micro servos for micro
+        robots</li>\n<li>custom parts for radio controlled cars, helicopters, boats,
+        airplanes, cats</li>\n<li>a handy mount that lets you hang an ipad on the
+        seatback tray hook for hands free movie watching</li>\n<li>LED infused chunky
+        jewelry</li>\n<li>custom guitar pick (for your thumb)</li>\n<li>electrical
+        outlet cover with a charging shelf</li>\n<li>lego part sorting robot parts</li>\n<li>animal
+        shaped coat hooks</li>\n<li>aquarium decorations</li>\n<li>replacement knobs
+        for drawers and doors</li>\n<li>suction cup shelf</li>\n<li>springy hair clip
+        to replace elastic bands</li>\n<li>doll shoes, furniture, and other tiny accessories</li>\n<li>camping
+        fork spoon knife</li>\n<li>custom dog tags</li>\n<li>water bottle cap clamp</li>\n<li>robot
+        snake</li>\n<li>custom wallet with built in address and phone number</li>\n<li>custom
+        luggage tags</li>\n<li>fingers puppets featuring your&rsquo;s and your friends
+        heads</li>\n<li>tiny plumbing fixtures used for low pressure automatic drip
+        systems for greenhouses</li>\n<li>parts for video game controllers built for
+        people who can&rsquo;t use normal video game controllers</li>\n<li>interestingly
+        tactile custom keycaps for keyboards. bumps, skulls, ridges, patterns</li>\n</ul>\n\n</div>\n
+        \ \n  \n\n\n    </article>\n  \n  \n    <article>\n      \n  <header>\n    \n
+        \     <h1 class=\"entry-title\"><a href=\"/blog/2012/09/24/lego-delta-bot/\">Lego
+        Delta Bot</a></h1>\n    \n    \n      <p class=\"meta\">\n        \n\n\n\n\n<time
+        class='entry-date' datetime='2012-09-24T16:13:39Z'><span class='date'><span
+        class='date-month'>Sep</span> <span class='date-day'>24</span><span class='date-suffix'>th</span>,
+        <span class='date-year'>2012</span></span> <span class='time'>4:13 pm</span></time>\n
+        \       \n      </p>\n    \n  </header>\n\n\n  <div class=\"entry-content\"><p>Here&rsquo;s
+        my second try of building a Lego delta bot.</p>\n\n<p><a href=\"http://dl.dropbox.com/u/100876/Screenshots/20120924090341.png\"><img
+        src=\"http://dl.dropbox.com/u/100876/Screenshots/20120924090741.png\"></a></p>\n\n<p>The
+        idea here is to initially make sure the mechanics are sound by hooking the
+        servos up to a receiver and moving them with a radio controller transmitter.</p>\n\n<p>Once
+        that&rsquo;s tidy I&rsquo;ll dig up the code I made for an earlier version
+        of this bot (written for the Lego NXT brick) and adapt it for use with an
+        Arduino. Eventually I want this bot to be able to stack pancakes as fast and
+        as terrifying as these guys:</p>\n\n<iframe width=\"500\" height=\"281\" src=\"http://www.youtube.com/embed/v9oeOYMRvuQ\"
+        frameborder=\"0\" allowfullscreen></iframe>\n\n</div>\n  \n  \n\n\n    </article>\n
+        \ \n  \n    <article>\n      \n  <header>\n    \n      <h1 class=\"entry-title\"><a
+        href=\"/blog/2012/09/21/robots-in-the-sky-painting-pictures-with-light/\">Robots
+        in the Sky Painting Pictures With Light</a></h1>\n    \n    \n      <p class=\"meta\">\n
+        \       \n\n\n\n\n<time class='entry-date' datetime='2012-09-21T22:22:00Z'><span
+        class='date'><span class='date-month'>Sep</span> <span class='date-day'>21</span><span
+        class='date-suffix'>st</span>, <span class='date-year'>2012</span></span>
+        <span class='time'>10:22 pm</span></time>\n        \n      </p>\n    \n  </header>\n\n\n
+        \ <div class=\"entry-content\"><iframe width=\"500\" height=\"281\" src=\"http://www.youtube.com/embed/ShGl5rQK3ew\"
+        frameborder=\"0\" allowfullscreen></iframe>\n\n</div>\n  \n  \n\n\n    </article>\n
+        \ \n  \n    <article>\n      \n  <header>\n    \n      <h1 class=\"entry-title\"><a
+        href=\"/blog/2012/09/14/the-manta-ray/\">The Manta Ray</a></h1>\n    \n    \n
+        \     <p class=\"meta\">\n        \n\n\n\n\n<time class='entry-date' datetime='2012-09-14T18:09:13Z'><span
+        class='date'><span class='date-month'>Sep</span> <span class='date-day'>14</span><span
+        class='date-suffix'>th</span>, <span class='date-year'>2012</span></span>
+        <span class='time'>6:09 pm</span></time>\n        \n      </p>\n    \n  </header>\n\n\n
+        \ <div class=\"entry-content\"><p>I have an obsession with input devices.
+        This obsession is the driven by the idea that my fingers, arms, or hands will
+        just stop working someday. It&rsquo;s a totally rational fear considering
+        that those body parts are essential for putting food on the table.</p>\n\n<p>So
+        when I see different kinds of keyboards or mice, I want them.</p>\n\n<p>I
+        want them badly enough that if I can&rsquo;t have them, I make them.</p>\n\n<p>Here&rsquo;s
+        an example of a work in progress that I call the Manta Ray.</p>\n\n<p><a href=\"http://dl.dropbox.com/u/100876/blog/IMG_2306.jpg\"><img
+        src=\"https://dl.dropbox.com/u/100876/blog/IMG_2306_t.jpg\"></a></p>\n\n<p>It&rsquo;s
+        built with balsa and bass wood, a bunch of switches, a <a href=\"https://www.sparkfun.com/products/9320\">Blackberry
+        trackball</a>, a nearly <a href=\"https://www.sparkfun.com/products/10835\">microscopic
+        joystick</a>, and a <a href=\"http://www.pjrc.com/teensy/index.html\">Teensy
+        2.0</a>.</p>\n\n<p>There are a total of nine micro switches. The three visible
+        on the top are intended to be used as &ldquo;modifiers&rdquo;. The idea, at
+        least for now, is to use them as CTRL, ALT/OPTION, and COMMAND (I&rsquo;m
+        an OS X user, though I guess COMMAND would map to some Windows based key as
+        well). They&rsquo;re set close enough together so that I can press more than
+        one at a time with just my thumb.</p>\n\n<p>The six bottom switches are for
+        chording. For chording, I looked at rolling my own system, a library called
+        <a href=\"http://chordite.com\">Chordite</a>, and GKOS. I used <a href=\"http://gkos.com/gkos/index-gkos-com.html\">GKOS</a>
+        in the end mostly because it just seemed to &ldquo;stick&rdquo;. I&rsquo;m
+        at the point now where I don&rsquo;t need to lookup the chord for at least
+        the entire alphabet, as well as a lot of punctuation. I&rsquo;m not yet fast
+        enough to have it replace a normal qwerty style keyboard but I&rsquo;m getting
+        there.</p>\n\n<p>The joystick on the right is currently working as a mouse.
+        Pressing in on the stick works for the left mouse click. At the moment, the
+        joystick is so sensitive that mouse clicks are sloppy. It&rsquo;s difficult
+        to click without moving the mouse cursor. It&rsquo;s likely that I&rsquo;ll
+        add a chord to work as a mouse click.</p>\n\n<p>I just added the Blackberry
+        trackball the other night and haven&rsquo;t mapped it to any inputs yet. It&rsquo;s
+        likely that it&rsquo;ll become the horizontal and vertical mouse scroll. I
+        can also use it as an indicator since it has 4 programmable LEDs beneath.
+        It&rsquo;s also a button - I currently have it working as a left mouse click.</p>\n\n<p>Eventually
+        I&rsquo;ll fill in all the gaps, making The Manta Ray look a lot more like
+        a game controller than a wooden skeleton. Working with balsa and bass word
+        has been great so far. The feel of the device is unique. It&rsquo;s light,
+        comfortable, and it&rsquo;s strong. When it&rsquo;s been fully fleshed out
+        and carved/sanded to fit my hands more I think it&rsquo;s going to work really
+        well.</p>\n</div>\n  \n  \n\n\n    </article>\n  \n  \n    <article>\n      \n
+        \ <header>\n    \n      <h1 class=\"entry-title\"><a href=\"/blog/2012/09/13/i-have-two-questions/\">I
+        Have Two Questions.</a></h1>\n    \n    \n      <p class=\"meta\">\n        \n\n\n\n\n<time
+        class='entry-date' datetime='2012-09-13T17:26:15Z'><span class='date'><span
+        class='date-month'>Sep</span> <span class='date-day'>13</span><span class='date-suffix'>th</span>,
+        <span class='date-year'>2012</span></span> <span class='time'>5:26 pm</span></time>\n
+        \       \n      </p>\n    \n  </header>\n\n\n  <div class=\"entry-content\"><p>Is
+        it possible that I forgot how to publish new words to this internet site?</p>\n\n<p>Is
+        it possible that last night I remembered how to publish new words to this
+        internet site?</p>\n\n<p>Yes, and yes.</p>\n</div>\n  \n  \n\n\n    </article>\n
+        \ \n  \n    <article>\n      \n  <header>\n    \n      <h1 class=\"entry-title\"><a
+        href=\"/blog/2011/04/15/fluid-css-grid-system/\">Fluid CSS Grid System</a></h1>\n
+        \   \n    \n      <p class=\"meta\">\n        \n\n\n\n\n<time class='entry-date'
+        datetime='2011-04-15T19:46:06Z'><span class='date'><span class='date-month'>Apr</span>
+        <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span
+        class='date-year'>2011</span></span> <span class='time'>7:46 pm</span></time>\n
+        \       \n      </p>\n    \n  </header>\n\n\n  <div class=\"entry-content\"><p>New
+        Gold Leaf&rsquo;s <a href=\"http://fluid.newgoldleaf.com/\">Fluid CSS Grid
+        System</a> looks pretty useful.</p>\n</div>\n  \n  \n\n\n    </article>\n
+        \ \n  <div class=\"pagination\">\n    \n      <a class=\"prev\" href=\"/posts/2\">&larr;
+        Older</a>\n    \n    <a href=\"/blog/archives\">Blog Archives</a>\n    \n
+        \ </div>\n</div>\n<aside class=\"sidebar\">\n  \n    <section>\n  <div id=\"about\">\n
+        \   <img id=\"me\" src=\"/images/june19_2012_avatar_t.png\" width=\"70\" height=\"70\">\n
+        \   <p>A blog about technology, agile, startups, hacking, making, learning,
+        and nano fog.</p>\n    <p>by Michael Buffington</p>\n  </div>\n\n  <div id=\"network\">\n
+        \   <a href=\"http://www.linkedin.com/in/michaelbuffington\"><img src=\"/images/icons/linkedin.png\"
+        width=\"16\" height=\"16\" alt=\"linkedin\"></a>\n    <a href=\"http://twitter.com/#!/go\"><img
+        src=\"/images/icons/twitter.png\" width=\"16\" height=\"16\" alt=\"twitter\"></a>\n
+        \   <a href=\"http://www.flickr.com/photos/buffington/\"><img src=\"/images/icons/flickr.png\"
+        width=\"16\" height=\"16\" alt=\"flickr\"></a>\n  </div>\n\n  <div id=\"currently\">\n
+        \   Currently: <span>making things<span>\n  </div>\n\n  <div id=\"availability\">\n
+        \   <p>Making custom Lego parts, a UAV, micro-quadcopters, a test driven Coffeescript
+        chemistry simulation, elevator simulation, blimp simulator, multiplayer Excite
+        Bike, chorded keyboard, and a very messy office.</p>\n  </div>\n  <div id=\"projects\">\n
+        \   <h3>Past Projects</h3>\n    <a href=\"/projects/grasshopper\" id=\"grasshopper\"
+        ><img width=\"80\" height=\"80\" alt=\"Grasshopper\" src=\"/images/grasshopper_80.png\"></a>\n
+        \   <a href=\"/projects/mule\"        id=\"mule\"        ><img width=\"80\"
+        height=\"80\" alt=\"Mule\"        src=\"/images/mule_80.png\"></a>\n    <a
+        href=\"/projects/grockit\"     id=\"grockit\"     ><img width=\"80\" height=\"80\"
+        alt=\"Grockit\"     src=\"/images/grockit_80.png\"></a>\n    <a href=\"/projects/measuremap\"
+        \ id=\"measuremap\"  ><img width=\"80\" height=\"80\" alt=\"Measuremap\"  src=\"/images/measuremap_80.png\"></a>\n
+        \   <a href=\"/projects/typekit\"     id=\"typekit\"     ><img width=\"80\"
+        height=\"80\" alt=\"Typekit\"     src=\"/images/typekit_80.png\"></a>\n    <a
+        href=\"/projects/stikkit\"     id=\"stikkit\"     ><img width=\"80\" height=\"80\"
+        alt=\"Stikkit\"     src=\"/images/stikkit_80.png\"></a>\n    <a href=\"/projects/unroll\"
+        \     id=\"unroll\"      ><img width=\"80\" height=\"80\" alt=\"Unroll\"      src=\"/images/unroll_80.png\"></a>\n
+        \   <a href=\"/projects/axonome\"     id=\"axonome\"     ><img width=\"80\"
+        height=\"80\" alt=\"Axonome\"     src=\"/images/axonome_80.png\"></a>\n    <a
+        href=\"/impactjs\"    id=\"impactjs\"    ><img width=\"80\" height=\"80\"
+        alt=\"Impactjs\"    src=\"/images/impactjs_80.png\"></a>\n  </div>\n  <div
+        style=\"clear:both;\"></div>\n</section>\n<section>\n  <h1>Instapaper Feed</h1>\n
+        \ <ul id=\"rss_feed_linkroll\">Fetching links&#8230;</ul>\n  \n  <p><a href=\"http://www.instapaper.com/rss/169345/VKhYoCJqQEvCFsED0JMKmP7rfWg\">more
+        &raquo;</a></p>\n  \n</section>\n<script type=\"text/javascript\">\n  var
+        linkroll = 'rss_feed_linkroll';\n  var rss_feed_url = \"http://rsstojson.herokuapp.com/?feed=http://www.instapaper.com/rss/169345/VKhYoCJqQEvCFsED0JMKmP7rfWg\";\n
+        \ (function(){\n    var rss_feedInit = document.createElement('script');\n
+        \   rss_feedInit.type = 'text/javascript';\n    rss_feedInit.async = true;\n
+        \   rss_feedInit.src = '/javascripts/rss_feed.js';\n    document.getElementsByTagName('head')[0].appendChild(rss_feedInit);\n
+        \ })();\n</script>\n<section>\n  <h1>Recent Posts</h1>\n  <ul id=\"recent_posts\">\n
+        \   \n      <li class=\"post\">\n        <a href=\"/blog/2013/07/01/elevator-teaser/\">Tower
+        Teaser</a>\n      </li>\n    \n      <li class=\"post\">\n        <a href=\"/blog/2013/06/21/the-last-thing-my-nikon-d100-saw/\">The
+        Last Thing My Nikon D100 Saw</a>\n      </li>\n    \n      <li class=\"post\">\n
+        \       <a href=\"/blog/2013/06/11/3d-printed-balsa-chopper/\">3D Printed
+        Balsa Chopper</a>\n      </li>\n    \n      <li class=\"post\">\n        <a
+        href=\"/blog/2013/05/30/ergodox/\">ErgoDox</a>\n      </li>\n    \n      <li
+        class=\"post\">\n        <a href=\"/blog/2013/05/28/the-wish-machine/\">The
+        Wish Machine</a>\n      </li>\n    \n  </ul>\n</section>\n\n<section>\n  <h1>GitHub
+        Repos</h1>\n  <ul id=\"gh_repos\">\n    <li class=\"loading\">Status updating&#8230;</li>\n
+        \ </ul>\n  \n  <a href=\"https://github.com/elbowdonkey\">@elbowdonkey</a>
+        on GitHub\n  \n  <script type=\"text/javascript\">\n    $(document).ready(function(){\n
+        \       if (!window.jXHR){\n            var jxhr = document.createElement('script');\n
+        \           jxhr.type = 'text/javascript';\n            jxhr.src = '/javascripts/libs/jXHR.js';\n
+        \           var s = document.getElementsByTagName('script')[0];\n            s.parentNode.insertBefore(jxhr,
+        s);\n        }\n\n        github.showRepos({\n            user: 'elbowdonkey',\n
+        \           count: 5,\n            skip_forks: true,\n            target:
+        '#gh_repos'\n        });\n    });\n  </script>\n  <script src=\"/javascripts/github.js\"
+        type=\"text/javascript\"> </script>\n</section>\n\n\n\n\n\n  \n</aside>\n\n
+        \   </div>\n  </div>\n  <footer role=\"contentinfo\"><p>\n  Copyright &copy;
+        2015 - Michael Buffington -\n  <span class=\"credit\">Powered by <a href=\"http://octopress.org\">Octopress</a></span>\n</p>\n\n</footer>\n
+        \ \n\n<script type=\"text/javascript\">\n      var disqus_shortname = 'collusionist';\n
+        \     \n        \n        var disqus_script = 'count.js';\n      \n    (function
+        () {\n      var dsq = document.createElement('script'); dsq.type = 'text/javascript';
+        dsq.async = true;\n      dsq.src = '//' + disqus_shortname + '.disqus.com/'
+        + disqus_script;\n      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);\n
+        \   }());\n</script>\n\n\n\n\n\n\n\n  <script type=\"text/javascript\">\n
+        \   (function(){\n      var twitterWidgets = document.createElement('script');\n
+        \     twitterWidgets.type = 'text/javascript';\n      twitterWidgets.async
+        = true;\n      twitterWidgets.src = '//platform.twitter.com/widgets.js';\n
+        \     document.getElementsByTagName('head')[0].appendChild(twitterWidgets);\n
+        \   })();\n  </script>\n\n\n\n\n\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Tue, 28 Apr 2015 16:00:15 GMT
+recorded_with: VCR 2.9.3

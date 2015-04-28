@@ -20,8 +20,4 @@ class Slaggtacker < Sinatra::Base
 
     erb :index
   end
-
-  get "/test" do
-    erb :test
-  end
 end
