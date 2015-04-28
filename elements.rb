@@ -1,6 +1,7 @@
 require "httparty"
 require "nokogiri"
 require "cgi"
+require "uri"
 
 class Elements
   include HTTParty
@@ -12,7 +13,14 @@ class Elements
     @wrapper_tag = options[:wrapper_tag] || "span"
     @highlight_tag = options[:highlight_tag] || "div"
 
-    @parsed_html = Nokogiri::HTML(self.class.get(url))
+    uri = URI(url)
+
+    unless uri.scheme
+      uri = URI("//" + url)
+      uri.scheme = "http"
+    end
+
+    @parsed_html = Nokogiri::HTML(self.class.get(uri.to_s))
   end
 
   ##

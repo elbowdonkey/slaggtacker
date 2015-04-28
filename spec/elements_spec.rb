@@ -15,6 +15,10 @@ RSpec.describe Elements do
     it 'returns an Elements object' do
       expect(elements.class).to eq(Elements)
     end
+
+    it 'can handle a lack of http://' do
+      expect { Elements.new("collusioni.st", options) }.to_not raise_error
+    end
   end
 
   describe '#add_highlights and #rerendered_html' do

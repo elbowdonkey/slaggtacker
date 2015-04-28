@@ -1,40 +1,49 @@
 <html>
   <head>
+    <script src="//use.typekit.net/gnl3kzb.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
     <title>Slack Tagger</title>
     <link rel="stylesheet" href="/css/screen.css" media="screen" charset="utf-8">
   </head>
 
   <body>
-    <form action="/" method="get">
-      <label for="url">Pick a URL, such as </label>
-      <input type="text" name="url" value="<%= params[:url] %>">
+    <div class="meta">
+      <form action="/" method="get">
+        <label for="url">Enter a URL</label>
+        <input type="text" id="url" name="url" value="<%= params[:url] %>">
 
-      <label for="tag">and highlight tags named</label>
-      <input type="text" name="tag" value="<%= params[:tag] %>">
-      <input type="submit" value="go">
-    </form>
+        <!-- <label for="tag"> and a tag</label> -->
+        <input type="hidden" id="tag"  name="tag" value="<%= params[:tag] %>">
 
-    <% if @elements %>
-      <div class="page-stats">
-        <p><strong><%= params[:url] %></strong> is made of tags! Here's how many of each:</p>
-        <p>
-          <% @elements.sorted_stats.each do |tag_val| %>
-            <% highlight_class = tag_val[0] == params[:tag] ? "highlight-tag" : "" %>
-            <span class="<%= highlight_class %>">
-              <a href="/?url=<%= params[:url] %>&tag=<%= tag_val[0] %>"><%= tag_val[0] %></a> <%= tag_val[1] %>
-            </span>
-          <% end %>
-        </p>
-        <% if params[:tag] %>
-          <p><code><%= params[:tag] %></code> elements are highlighted below.</p>
-        <% else %>
-          <p>Click on one to see where it's used below.</p>
-        <% end %>
-      </div>
+        <input type="submit" value="Go">
+      </form>
 
-      <div class="page-source">
-        <%= @elements.rerendered_html %>
-      </div>
-    <% end %>
+      <% if @elements %>
+        <div class="page-stats">
+          <p>Look at all the tags we found! See how
+
+            <!-- <a href="/?url=<%= params[:url] %>&tag=<%= params[:tag] %>"> -->
+              <span class="highlight-tag"><%= params[:tag] %></span>
+            <!-- </a> -->
+
+            is highlighted? Click on any tag to see it highlighted in the source below.</p>
+          <p>
+            <% @elements.sorted_stats.each do |tag_val| %>
+              <% highlight_class = tag_val[0] == params[:tag] ? "highlight-tag" : "" %>
+              <a href="/?url=<%= params[:url] %>&tag=<%= tag_val[0] %>">
+                <span class="<%= highlight_class %>"><%= tag_val[0] %></span> <%= tag_val[1] %>
+              </a>
+            <% end %>
+          </p>
+        </div>
+
+        <div class="note">Aside from the highlighting, this is the HTML exactly as we found it</div>
+
+        <div class="page-source">
+          <%= @elements.rerendered_html %>
+        </div>
+      <% end %>
+    </div>
   </body>
 </html>
