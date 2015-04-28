@@ -15,44 +15,13 @@ http_interactions:
       - Ruby
   response:
     status:
-      code: 302
-      message: Found
-    headers:
-      Connection:
-      - close
-      Pragma:
-      - no-cache
-      Cache-Control:
-      - no-cache
-      Location:
-      - "/"
-    body:
-      encoding: UTF-8
-      string: ''
-    http_version: 
-  recorded_at: Tue, 28 Apr 2015 16:00:15 GMT
-- request:
-    method: get
-    uri: http://collusioni.st/
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-      User-Agent:
-      - Ruby
-  response:
-    status:
       code: 200
       message: OK
     headers:
       Server:
       - GitHub.com
       Date:
-      - Tue, 28 Apr 2015 16:00:15 GMT
+      - Tue, 28 Apr 2015 16:30:05 GMT
       Content-Type:
       - text/html; charset=utf-8
       Transfer-Encoding:
@@ -62,7 +31,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Expires:
-      - Tue, 28 Apr 2015 16:10:15 GMT
+      - Tue, 28 Apr 2015 16:40:05 GMT
       Cache-Control:
       - max-age=600
     body:
@@ -487,5 +456,5 @@ http_interactions:
         \     document.getElementsByTagName('head')[0].appendChild(twitterWidgets);\n
         \   })();\n  </script>\n\n\n\n\n\n</body>\n</html>\n"
     http_version: 
-  recorded_at: Tue, 28 Apr 2015 16:00:15 GMT
+  recorded_at: Tue, 28 Apr 2015 16:30:05 GMT
 recorded_with: VCR 2.9.3

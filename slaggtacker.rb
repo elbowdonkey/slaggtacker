@@ -1,13 +1,14 @@
 require "sinatra"
-require 'sinatra/base'
+require "sinatra/base"
 require "tilt/erb"
 require File.expand_path("elements.rb")
 
 
+
 class Slaggtacker < Sinatra::Base
   get "/" do
-    params[:url] = "http://collusioni.st" if params[:url].nil? or params[:url].empty?
-    params[:tag] = "div" if params[:tag].nil? or params[:tag].empty?
+    params[:url] = "http://collusioni.st" if blank? :url
+    params[:tag] = "div" if blank? :tag
 
     @errors = []
 
@@ -19,5 +20,15 @@ class Slaggtacker < Sinatra::Base
     end
 
     erb :index
+  end
+
+  ## enable to allow spec suite to hit
+  ## when generating new VCR cassettes
+  # get "/test" do
+  #   erb :test
+  # end
+
+  def blank? key
+    params[key].nil? or params[key].empty?
   end
 end

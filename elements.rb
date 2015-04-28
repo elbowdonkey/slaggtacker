@@ -19,6 +19,7 @@ class Elements
 
     if uri.scheme && uri.host
       @parsed_html = Nokogiri::HTML(self.class.get(uri.to_s))
+      add_highlights
     else
       raise InvalidURI
     end
@@ -79,7 +80,9 @@ class Elements
   private
 
   def update_counts_for element
-    # only allow html tags to be highlighted
-    @stats[element.node_name] += 1 if element.type == 1
+    # only allow original html tags to be highlighted
+    if element.type == 1 && element["class"] != @css_class
+      @stats[element.node_name] += 1
+    end
   end
 end

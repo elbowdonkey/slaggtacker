@@ -35,7 +35,6 @@ RSpec.describe Elements, :vcr do
       expected_results += "  &lt;/body&gt;\n"
       expected_results += "&lt;/html&gt;\n"
 
-      elements.add_highlights
       expect(elements.rerendered_html).to eq expected_results
     end
   end
