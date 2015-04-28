@@ -1,7 +1,6 @@
 require "httparty"
 require "nokogiri"
 require "cgi"
-require "pry"
 
 class Elements
   include HTTParty

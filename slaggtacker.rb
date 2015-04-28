@@ -1,7 +1,7 @@
 require "sinatra"
 require 'sinatra/base'
 require "tilt/erb"
-require File.expand_path(File.join(File.dirname(__FILE__), "elements.rb"))
+require File.expand_path("elements.rb")
 
 
 class Slaggtacker < Sinatra::Base
