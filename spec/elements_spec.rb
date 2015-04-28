@@ -19,6 +19,10 @@ RSpec.describe Elements do
     it 'can handle a lack of http://' do
       expect { Elements.new("collusioni.st", options) }.to_not raise_error
     end
+
+    it 'raises an exception when given a terrible URL' do
+      expect { Elements.new("timmy", options) }.to raise_error
+    end
   end
 
   describe '#add_highlights and #rerendered_html' do

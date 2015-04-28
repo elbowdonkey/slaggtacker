@@ -1,7 +1,7 @@
 require "httparty"
 require "nokogiri"
 require "cgi"
-require "uri"
+require "addressable/uri"
 
 class Elements
   include HTTParty
@@ -12,15 +12,16 @@ class Elements
     @css_class = options[:css_class] || "st-highlight"
     @wrapper_tag = options[:wrapper_tag] || "span"
     @highlight_tag = options[:highlight_tag] || "div"
+    @exceptions = nil
 
-    uri = URI(url)
+    uri = Addressable::URI.parse(url)
+    uri = Addressable::URI.parse("http://#{url}") if uri.scheme.nil?
 
-    unless uri.scheme
-      uri = URI("//" + url)
-      uri.scheme = "http"
+    if uri.scheme && uri.host
+      @parsed_html = Nokogiri::HTML(self.class.get(uri.to_s))
+    else
+      raise InvalidURI
     end
-
-    @parsed_html = Nokogiri::HTML(self.class.get(uri.to_s))
   end
 
   ##

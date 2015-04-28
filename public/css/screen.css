@@ -162,6 +162,8 @@ form input[type="submit"] {
 }
 
 .note {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   text-align: center;
   background-color: rgba(74,177,128,0.75);
   font-size: 0.9em;
@@ -174,8 +176,11 @@ form input[type="submit"] {
 
 
 .page-source {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
   padding:20px;
   margin: 0 20px;
+  margin-bottom: 20px;
   border-top: 1px solid #9f9e9c;
   background-color: rgba(246,245,240, 0.95);
   font-family: monospace;
@@ -220,7 +225,9 @@ form input[type="submit"] {
 
 .st-highlight {
   border-radius: 6px;
-  background-color: #dfa941;
+  /*background-color: #dfa941;*/
+  background-color: rgba(218,42,83,1);
+  color: white;
   padding:5px;
   display: inline-block;
 }
@@ -228,7 +235,16 @@ form input[type="submit"] {
 .highlight-tag, code {
   color: #fff;
   border-radius: 3px;
-  background-color: #dfa941 !important;
+  background-color: rgba(218,42,83,1) !important;
   padding:2px;
   display: inline-block;
+}
+
+.errors {
+  border-radius: 6px;
+  padding:20px;
+  margin: 0 20px;
+  background-color: rgba(218,42,83, 0.95);
+  overflow: auto;
+  color: #fff;
 }

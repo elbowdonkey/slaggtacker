@@ -6,6 +6,7 @@ gem "sinatra"
 gem "httparty"
 gem "thin"
 gem "nokogiri"
+gem "addressable"
 
 group :test do
   gem 'pry'
